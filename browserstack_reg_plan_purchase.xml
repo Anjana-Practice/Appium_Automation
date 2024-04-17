@@ -1,0 +1,19 @@
+<suite thread-count="1" verbose="1" name="Presto Android TestSuite" annotations="JDK" parallel="tests">
+    <parameter name="endpoint" value="https://inshad_P6E8rY:oceqGv2Rpd9k5dZxspZr@hub.browserstack.com/wd/hub"/>
+    <parameter name="host" value="BrowserStack" />
+    <!--    Structure for execution platform is  <platform>:<deviceName(or)UUID>:<version> comma seperated multiples  -->
+    <parameter name="executionPlatforms" value="Android:Google Pixel 7:13.0"/>
+    <parameter name="browserStackAndroidApp" value="bs://485089f75849f8a3bb31aafc94d49d14bfbeb521" />
+    <parameter name="BrowserStackiOSApp" value="bs://141727515ede53d8d073ca4a3e4db2aceec20512" />
+    <parameter name="projectName" value="Regression execution" />
+    <parameter name="build" value="1.5.3" />
+    <parameter name="timezone" value="New_York" />
+    <parameter name="geolocation" value="US" />
+    <parameter name="browserstackUser" value="inshad_P6E8rY" />
+    <parameter name="browserstackKey" value="oceqGv2Rpd9k5dZxspZr" />
+    <test thread-count="1" name="login" parallel="methods">
+        <classes>
+            <class name="tests.SignUp_Purchase_Delete_CombinationTest"/>
+        </classes>
+    </test>
+</suite>

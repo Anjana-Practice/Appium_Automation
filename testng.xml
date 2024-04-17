@@ -1,0 +1,15 @@
+<suite thread-count="1" verbose="1" name="Presto Android TestSuite" annotations="JDK" parallel="tests">
+    <parameter name="endpoint" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="host" value="local" />
+    <!--    Structure for execution platform is  <platform>:<deviceName(or)UUID>:<version> comma seperated multiples  -->
+    <parameter name="executionPlatforms" value="Android:pixel_3a:14"/>
+    <parameter name="androidApp" value="/Users/vigneshthangaraj/Downloads/app-release (9).apk"/>
+    <parameter name="iosApp" value="/Users/vigneshthangaraj/Downloads/app-release (9).apk"/>
+    <parameter name="browserStackAndroidApp" value="" />
+    <parameter name="BrowserStackiOSApp" value="" />
+    <test thread-count="1" name="login" parallel="methods">
+        <classes>
+            <class name="tests.GuestMapTest"/>
+        </classes>
+    </test>
+</suite>

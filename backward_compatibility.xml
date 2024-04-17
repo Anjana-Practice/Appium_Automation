@@ -1,0 +1,42 @@
+<suite thread-count="1" verbose="1" name="Presto Android TestSuite" annotations="JDK" parallel="tests">
+    <parameter name="endpoint" value=""/>
+    <parameter name="host" value="BrowserStack" />
+    <!--    Structure for execution platform is  <platform>:<deviceName(or)UUID>:<version> comma seperated multiples  -->
+    <parameter name="executionPlatforms" value="Android:Google Pixel 7:13.0"/>
+    <parameter name="androidApp" value=""/>
+    <parameter name="iosApp" value=""/>
+    <parameter name="browserStackAndroidApp" value="" />
+    <parameter name="BrowserStackiOSApp" value="" />
+    <parameter name="projectName" value="Regression execution" />
+    <parameter name="build" value="3.0" />
+    <parameter name="timezone" value="New_York" />
+    <parameter name="geolocation" value="US" />
+    <parameter name="browserstackUser" value="" />
+    <parameter name="browserstackKey" value="" />
+    <test thread-count="1" name="login" parallel="methods">
+        <classes>
+            <class name="tests.SignUp_Purchase_Delete_CombinationTest"/>
+            <class name="tests.LoginTest"/>
+            <methods>
+                <include name="loginIntoApplicationFromAccountPage" />
+            </methods>
+            <class name="tests.AccountPageTest"/>
+            <methods>
+                <include name="verifySelectHertzAndSallyRentalFleet" />
+                <include name="AccountProfileTabPersonalInfoValidation" />
+                <include name="verifyUpdateCardDetails" />
+            </methods>
+            <class name="tests.AccountVehicleTest"/>
+            <class name="tests.DeleteAccountTest"/>
+            <class name="tests.AccountChargingHistoryTest"/>
+            <class name="tests.ChatBubbleTest"/>
+            <class name="tests.PlanExpireTest"/>
+            <class name="tests.StationDetailsTest"/>
+            <methods>
+                <include name="StationDetailsReportIssue" />
+                <include name="addVehicleFromStationDetails" />
+                <include name="verifyPricesSection" />
+            </methods>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<suite thread-count="1" verbose="1" name="Presto Android TestSuite" annotations="JDK" parallel="tests">
+    <parameter name="endpoint" value="https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub"/>
+    <parameter name="host" value="BrowserStack" />
+    <!--    Structure for execution platform is  <platform>:<deviceName(or)UUID>:<version> comma seperated multiples  -->
+    <parameter name="executionPlatforms" value="Android:Samsung Galaxy S22 Ultra:12.0"/>
+    <parameter name="androidApp" value=""/>
+    <parameter name="iosApp" value=""/>
+    <parameter name="browserStackAndroidApp" value="bs://546e0ef1089348a188ab63698ac35b6788944f0f" />
+    <parameter name="BrowserStackiOSApp" value="" />
+    <parameter name="projectName" value="Regression execution" />
+    <parameter name="build" value="1.0" />
+    <parameter name="timezone" value="New_York" />
+    <parameter name="geolocation" value="US" />
+    <parameter name="browserstackUser" value="anjanaprakash_hHWeNt" />
+    <parameter name="browserstackKey" value="t5KuKWzMqgRpyWCLhm87" />
+    <test thread-count="1" name="login" parallel="methods">
+        <classes>
+        <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<suite thread-count="1" verbose="1" name="Presto Android TestSuite" annotations="JDK" parallel="tests">
+    <parameter name="endpoint" value=""/>
+    <parameter name="host" value="BrowserStack" />
+    <!--    Structure for execution platform is  <platform>:<deviceName(or)UUID>:<version> comma seperated multiples  -->
+    <parameter name="executionPlatforms" value=""/>
+    <parameter name="androidApp" value=""/>
+    <parameter name="iosApp" value=""/>
+    <parameter name="browserStackAndroidApp" value="" />
+    <parameter name="BrowserStackiOSApp" value="" />
+    <parameter name="projectName" value="Github Regression build" />
+    <parameter name="build" value="" />
+    <parameter name="timezone" value="New_York" />
+    <parameter name="geolocation" value="US" />
+    <parameter name="browserstackUser" value="" />
+    <parameter name="browserstackKey" value="" />
+    <test thread-count="1" name="login" parallel="methods">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>

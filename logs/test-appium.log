@@ -1,0 +1,1136 @@
+2024-04-12 18:39:26 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 18:39:26 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 18:39:26 INFO  LogListener:19 - [Android:Galaxy S21:11]
+2024-04-12 18:39:26 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11}> started ==============================
+2024-04-12 18:39:26 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 18:39:26 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 18:39:26 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 18:39:26 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 18:39:26 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11>
+2024-04-12 18:39:26 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 18:39:26 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-12 18:39:26 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 18:39:26 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 18:39:26 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 18:39:26 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 18:39:26 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 18:39:26 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 18:39:26 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-18-39-26, platformName: ANDROID, platformVersion: 11, project: Regression execution}
+2024-04-12 18:39:29 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 18:39:29 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:78)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 18:39:29 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 18:39:29 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 18:39:29 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 18:39:30 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 18:58:15 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 18:58:15 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 18:58:15 INFO  LogListener:19 - [Android:Galaxy S21:11]
+2024-04-12 18:58:15 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11}> started ==============================
+2024-04-12 18:58:15 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 18:58:15 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 18:58:15 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 18:58:15 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 18:58:15 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11>
+2024-04-12 18:58:15 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 18:58:15 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub-cloud.browserstack.com/wd/hub>
+2024-04-12 18:58:15 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 18:58:15 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 18:58:15 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 18:58:15 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 18:58:15 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 18:58:15 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 18:58:15 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-18-58-15, platformName: ANDROID, platformVersion: 11, project: Regression execution}
+2024-04-12 18:58:18 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 18:58:18 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:78)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 18:58:19 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 18:58:19 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 18:58:19 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 18:58:19 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 20:27:42 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 20:27:42 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 20:27:42 INFO  LogListener:19 - [Android:Galaxy S21:11]
+2024-04-12 20:27:42 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11}> started ==============================
+2024-04-12 20:27:43 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 20:27:43 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 20:27:43 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 20:27:43 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 20:27:43 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11>
+2024-04-12 20:27:43 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 20:27:43 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub-cloud.browserstack.com/wd/hub>
+2024-04-12 20:27:43 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 20:27:43 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 20:27:43 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 20:27:43 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 20:27:43 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 20:27:43 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 20:27:43 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-20-27-43, platformName: ANDROID, platformVersion: 11, project: Regression execution}
+2024-04-12 20:27:45 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 20:27:45 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:79)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 20:27:46 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 20:27:46 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 20:27:46 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 20:27:47 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 20:29:56 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 20:29:56 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 20:29:56 INFO  LogListener:19 - [Android:Galaxy S21:11]
+2024-04-12 20:29:56 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11}> started ==============================
+2024-04-12 20:29:56 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 20:29:56 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 20:29:56 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 20:29:56 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 20:29:56 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11>
+2024-04-12 20:29:56 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 20:29:56 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-12 20:29:56 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 20:29:56 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 20:29:56 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 20:29:56 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 20:29:56 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 20:29:56 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 20:29:56 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-20-29-56, platformName: ANDROID, platformVersion: 11, project: Regression execution}
+2024-04-12 20:29:59 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 20:29:59 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:79)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 20:29:59 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 20:29:59 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 20:29:59 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 20:30:00 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 20:54:08 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 20:54:08 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 20:54:08 INFO  LogListener:19 - [Android:Galaxy S21:11.0]
+2024-04-12 20:54:08 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11.0}> started ==============================
+2024-04-12 20:54:08 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 20:54:08 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 20:54:08 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 20:54:08 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 20:54:08 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11.0>
+2024-04-12 20:54:08 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 20:54:08 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-12 20:54:08 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 20:54:08 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 20:54:08 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 20:54:08 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 20:54:08 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 20:54:08 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 20:54:08 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-20-54-08, platformName: ANDROID, platformVersion: 11.0, project: Regression execution}
+2024-04-12 20:54:12 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 20:54:12 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:79)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 20:54:12 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 20:54:12 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 20:54:12 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 20:54:13 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 20:54:54 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 20:54:54 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 20:54:54 INFO  LogListener:19 - [Android:Galaxy S21:11.0]
+2024-04-12 20:54:54 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11.0}> started ==============================
+2024-04-12 20:54:55 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 20:54:55 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 20:54:55 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 20:54:55 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 20:54:55 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11.0>
+2024-04-12 20:54:55 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 20:54:55 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-12 20:54:55 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 20:54:55 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 20:54:55 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 20:54:55 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 20:54:55 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 20:54:55 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 20:54:55 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-20-54-55, platformName: ANDROID, platformVersion: 11.0, project: Regression execution}
+2024-04-12 20:54:57 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 20:54:57 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:79)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 20:54:58 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 20:54:58 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 20:54:58 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 20:54:58 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-12 21:01:17 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-12 21:01:17 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-12 21:01:17 INFO  LogListener:19 - [Android:Galaxy S21:11.0]
+2024-04-12 21:01:17 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Galaxy S21:11.0}> started ==============================
+2024-04-12 21:01:17 INFO  LogListener:19 - <androidApp>:<>
+2024-04-12 21:01:17 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-12 21:01:17 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-12 21:01:17 INFO  LogListener:19 - <iosApp>:<>
+2024-04-12 21:01:17 INFO  LogListener:19 - <executionPlatforms>:<Android:Galaxy S21:11.0>
+2024-04-12 21:01:17 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-12 21:01:17 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub-cloud.browserstack.com/wd/hub>
+2024-04-12 21:01:17 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-12 21:01:17 INFO  LogListener:19 - <build>:<1.0>
+2024-04-12 21:01:17 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-12 21:01:17 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-12 21:01:17 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-12 21:01:17 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-12 21:01:17 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Galaxy S21, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-12-21-01-17, platformName: ANDROID, platformVersion: 11.0, project: Regression execution}
+2024-04-12 21:01:20 ERROR LogListener:27 - exception occurred in launching the driver....!!!!Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-VCH7H8L', ip: '192.168.1.9'
+2024-04-12 21:01:20 ERROR LogListener:27 - org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+drivers.DriverFactory.getDriver(DriverFactory.java:79)
+drivers.DriverFactory.getDriver(DriverFactory.java:65)
+listeners.TestNGListener.setupBeforeMethod(TestNGListener.java:46)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-04-12 21:01:20 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-12 21:01:20 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Skipped
+2024-04-12 21:01:20 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-12 21:01:21 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-13 05:39:27 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-13 05:39:27 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-13 05:39:27 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-13 05:39:27 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-13 05:39:27 INFO  LogListener:19 - <androidApp>:<>
+2024-04-13 05:39:27 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-13 05:39:27 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-13 05:39:27 INFO  LogListener:19 - <iosApp>:<>
+2024-04-13 05:39:27 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-13 05:39:27 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-13 05:39:27 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-13 05:39:27 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-13 05:39:27 INFO  LogListener:19 - <build>:<1.0>
+2024-04-13 05:39:27 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-13 05:39:27 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-13 05:39:27 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-13 05:39:27 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-13 05:39:27 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-13-05-39-27, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-13 05:40:00 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-13 05:40:03 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 2979 ms
+2024-04-13 05:42:04 ERROR LogListener:27 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-13 05:42:04 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-13 05:42:05 ERROR LogListener:27 - Failure stackTrace message >>>>> unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-13 05:42:07 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-13 05:42:07 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-13 05:42:08 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 11:48:47 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 11:48:47 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 11:48:47 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 11:48:47 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 11:48:47 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 11:48:47 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 11:48:47 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 11:48:47 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 11:48:47 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 11:48:47 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 11:48:47 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 11:48:47 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 11:48:47 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 11:48:47 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 11:48:47 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 11:48:47 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 11:48:47 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 11:48:47 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-11-48-47, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 11:49:17 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 11:49:20 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3019 ms
+2024-04-15 11:49:21 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 237 ms
+2024-04-15 11:49:22 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 11:49:25 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 11:49:25 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 11:49:26 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:30:24 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:30:24 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:30:24 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:30:24 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:30:24 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:30:24 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:30:24 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:30:24 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:30:24 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:30:24 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:30:24 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:30:24 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:30:24 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:30:24 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:30:24 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:30:24 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:30:24 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:30:24 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-30-24, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:30:48 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:30:51 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3059 ms
+2024-04-15 12:30:52 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 824 ms
+2024-04-15 12:30:54 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1126 ms
+2024-04-15 12:30:54 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 257 ms
+2024-04-15 12:30:55 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 271 ms
+2024-04-15 12:30:55 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 12:30:59 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:30:59 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:30:59 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:34:20 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:34:20 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:34:20 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:34:20 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:34:21 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:34:21 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:34:21 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:34:21 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:34:21 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:34:21 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:34:21 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:34:21 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:34:21 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:34:21 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:34:21 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:34:21 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:34:21 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:34:21 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-34-21, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:34:50 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:34:51 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 968 ms
+2024-04-15 12:34:52 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 861 ms
+2024-04-15 12:34:53 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1155 ms
+2024-04-15 12:34:54 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1231 ms
+2024-04-15 12:34:56 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1140 ms
+2024-04-15 12:34:56 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 839 ms
+2024-04-15 12:36:57 ERROR LogListener:27 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 12:36:57 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:36:58 ERROR LogListener:27 - Failure stackTrace message >>>>> unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:37:00 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:37:00 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:37:01 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:39:37 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:39:37 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:39:37 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:39:37 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:39:37 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:39:37 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:39:37 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:39:37 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:39:37 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:39:37 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:39:37 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:39:37 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:39:37 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:39:37 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:39:37 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:39:37 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:39:37 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:39:37 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-39-37, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:40:14 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:40:18 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3804 ms
+2024-04-15 12:40:21 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1355 ms
+2024-04-15 12:40:23 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1693 ms
+2024-04-15 12:40:26 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 3139 ms
+2024-04-15 12:40:29 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1440 ms
+2024-04-15 12:40:31 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1465 ms
+2024-04-15 12:42:32 ERROR LogListener:27 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 12:42:32 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:42:35 ERROR LogListener:27 - Failure stackTrace message >>>>> unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:42:37 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:42:37 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:42:37 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:44:33 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:44:33 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:44:33 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:44:33 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:44:33 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:44:33 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:44:33 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:44:33 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:44:33 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:44:33 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:44:33 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:44:33 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:44:33 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:44:33 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:44:33 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:44:33 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:44:33 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:44:33 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-44-33, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:45:07 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:45:11 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3854 ms
+2024-04-15 12:45:13 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1504 ms
+2024-04-15 12:45:15 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1758 ms
+2024-04-15 12:45:19 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1959 ms
+2024-04-15 12:45:21 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1337 ms
+2024-04-15 12:45:23 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1430 ms
+2024-04-15 12:47:26 ERROR LogListener:27 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 12:47:26 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:47:28 ERROR LogListener:27 - Failure stackTrace message >>>>> unable to click on locator  >>>>>By.xpath: //android.widget.Button[@content-desc="Continue"]
+2024-04-15 12:47:30 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:47:30 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:47:31 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:52:05 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:52:05 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:52:05 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:52:05 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:52:05 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:52:05 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:52:05 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:52:05 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:52:05 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:52:05 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:52:05 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:52:05 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:52:05 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:52:05 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:52:05 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:52:05 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:52:05 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:52:05 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-52-05, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:52:37 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:52:41 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3905 ms
+2024-04-15 12:52:43 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1608 ms
+2024-04-15 12:52:45 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1722 ms
+2024-04-15 12:52:48 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 2944 ms
+2024-04-15 12:52:51 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1354 ms
+2024-04-15 12:52:53 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1545 ms
+2024-04-15 12:52:54 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 12:52:58 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:52:58 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:52:58 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 12:58:04 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 12:58:04 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 12:58:04 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 12:58:04 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 12:58:04 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 12:58:04 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 12:58:04 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 12:58:04 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 12:58:04 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 12:58:04 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 12:58:04 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 12:58:04 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 12:58:04 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 12:58:04 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 12:58:04 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 12:58:04 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 12:58:04 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 12:58:04 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-12-58-04, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 12:58:43 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 12:58:47 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 4284 ms
+2024-04-15 12:58:49 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1556 ms
+2024-04-15 12:58:51 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1729 ms
+2024-04-15 12:58:53 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 2025 ms
+2024-04-15 12:58:56 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1457 ms
+2024-04-15 12:58:59 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1393 ms
+2024-04-15 12:59:01 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 12:59:06 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 12:59:06 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 12:59:06 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 13:03:19 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 13:03:19 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 13:03:19 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 13:03:19 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 13:03:19 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 13:03:19 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 13:03:19 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 13:03:19 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 13:03:19 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 13:03:19 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 13:03:19 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 13:03:19 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 13:03:19 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 13:03:19 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 13:03:19 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 13:03:19 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 13:03:19 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 13:03:19 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-13-03-19, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 13:03:55 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 13:03:59 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3224 ms
+2024-04-15 13:04:00 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 850 ms
+2024-04-15 13:04:01 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1144 ms
+2024-04-15 13:04:02 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1277 ms
+2024-04-15 13:04:03 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 685 ms
+2024-04-15 13:04:04 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 974 ms
+2024-04-15 13:04:04 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 13:04:07 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 13:04:07 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 13:04:08 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 14:24:57 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 14:24:57 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 14:24:57 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 14:24:57 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 14:24:57 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 14:24:57 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 14:24:57 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 14:24:57 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 14:24:57 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 14:24:57 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 14:24:57 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 14:24:57 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 14:24:57 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 14:24:57 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 14:24:57 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 14:24:57 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 14:24:57 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 14:24:57 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-14-24-57, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 14:25:35 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 14:25:39 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3852 ms
+2024-04-15 14:25:42 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1868 ms
+2024-04-15 14:25:45 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 2461 ms
+2024-04-15 14:25:47 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 2083 ms
+2024-04-15 14:26:02 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 14:26:09 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 14:26:09 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 14:26:09 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 14:28:24 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 14:28:24 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 14:28:24 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 14:28:24 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 14:28:24 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 14:28:24 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 14:28:24 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 14:28:24 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 14:28:24 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 14:28:24 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 14:28:24 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 14:28:24 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 14:28:24 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 14:28:24 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 14:28:24 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 14:28:24 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 14:28:24 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 14:28:24 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-14-28-24, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 14:28:52 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 14:28:55 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3197 ms
+2024-04-15 14:28:56 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 883 ms
+2024-04-15 14:28:58 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1168 ms
+2024-04-15 14:28:59 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1317 ms
+2024-04-15 14:29:00 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 706 ms
+2024-04-15 14:29:09 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 14:29:16 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 14:29:16 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 14:29:16 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 15:38:48 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 15:38:48 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 15:38:48 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 15:38:48 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 15:38:48 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 15:38:48 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 15:38:48 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 15:38:48 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 15:38:48 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 15:38:48 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 15:38:48 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 15:38:48 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 15:38:48 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 15:38:48 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 15:38:48 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 15:38:48 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 15:38:48 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 15:38:48 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-15-38-48, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 15:39:29 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 15:39:33 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3776 ms
+2024-04-15 15:39:35 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1722 ms
+2024-04-15 15:39:38 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1261 ms
+2024-04-15 15:39:40 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1751 ms
+2024-04-15 15:39:42 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1231 ms
+2024-04-15 15:39:47 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1249 ms
+2024-04-15 15:40:00 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 15:40:05 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 15:40:05 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 15:40:05 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 15:42:54 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 15:42:54 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 15:42:54 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 15:42:54 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 15:42:54 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 15:42:54 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 15:42:54 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 15:42:54 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 15:42:54 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 15:42:54 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 15:42:54 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 15:42:54 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 15:42:54 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 15:42:54 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 15:42:54 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 15:42:54 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 15:42:54 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 15:42:54 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-15-42-54, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 15:43:33 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 15:43:37 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3624 ms
+2024-04-15 15:43:39 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1460 ms
+2024-04-15 15:43:41 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1875 ms
+2024-04-15 15:43:43 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1817 ms
+2024-04-15 15:43:46 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1258 ms
+2024-04-15 15:44:03 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 2276 ms
+2024-04-15 15:44:04 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 15:44:10 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 15:44:10 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 15:44:10 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 16:01:54 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 16:01:54 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 16:01:54 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 16:01:54 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 16:01:54 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 16:01:54 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 16:01:54 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 16:01:54 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 16:01:54 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 16:01:54 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 16:01:54 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 16:01:54 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 16:01:54 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 16:01:54 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 16:01:54 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 16:01:54 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 16:01:54 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 16:01:54 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-16-01-54, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 16:02:44 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 16:02:48 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3656 ms
+2024-04-15 16:02:50 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1475 ms
+2024-04-15 16:02:53 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1584 ms
+2024-04-15 16:02:55 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1885 ms
+2024-04-15 16:02:58 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1475 ms
+2024-04-15 16:03:15 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1647 ms
+2024-04-15 16:05:16 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 16:05:16 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : expected [Welcome to the team, Rayan!] but found []
+2024-04-15 16:05:18 ERROR LogListener:27 - Failure stackTrace message >>>>> expected [Welcome to the team, Rayan!] but found []
+2024-04-15 16:05:20 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 16:05:20 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 16:05:21 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 16:07:26 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 16:07:26 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 16:07:26 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 16:07:26 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 16:07:26 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 16:07:26 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 16:07:26 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 16:07:26 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 16:07:26 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 16:07:26 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 16:07:26 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 16:07:26 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 16:07:26 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 16:07:26 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 16:07:26 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 16:07:26 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 16:07:26 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 16:07:26 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-16-07-26, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 16:07:55 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 16:07:59 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3200 ms
+2024-04-15 16:08:00 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 362 ms
+2024-04-15 16:08:01 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 300 ms
+2024-04-15 16:08:03 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1197 ms
+2024-04-15 16:08:04 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 720 ms
+2024-04-15 16:08:16 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 272 ms
+2024-04-15 16:10:16 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 16:10:16 ERROR LogListener:36 - loginIntoApplicationFromAccountPage : Test Failed : expected [Welcome to the team, Rayan!] but found []
+2024-04-15 16:10:17 ERROR LogListener:27 - Failure stackTrace message >>>>> expected [Welcome to the team, Rayan!] but found []
+2024-04-15 16:10:19 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 16:10:19 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 16:10:19 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 18:22:24 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 18:22:24 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 18:22:25 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 18:22:25 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 18:22:25 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 18:22:25 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 18:22:25 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 18:22:25 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 18:22:25 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 18:22:25 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 18:22:25 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 18:22:25 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 18:22:25 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 18:22:25 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 18:22:25 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 18:22:25 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 18:22:25 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 18:22:25 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-18-22-25, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 18:22:59 INFO  LogListener:19 - loginIntoApplicationFromAccountPage: Test started
+2024-04-15 18:23:03 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3612 ms
+2024-04-15 18:23:05 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1383 ms
+2024-04-15 18:23:07 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1258 ms
+2024-04-15 18:23:10 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1273 ms
+2024-04-15 18:23:12 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1202 ms
+2024-04-15 18:23:29 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1201 ms
+2024-04-15 18:25:30 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 18:25:32 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 1255 ms
+2024-04-15 18:25:34 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 938 ms
+2024-04-15 18:25:34 INFO  LogListener:19 - loginIntoApplicationFromAccountPage : Test Passed
+2024-04-15 18:25:38 INFO  LogListener:19 - ============================ Method <loginIntoApplicationFromAccountPage{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 18:25:38 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 18:25:38 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-15 18:48:19 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-15 18:48:19 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-15 18:48:19 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 18:48:19 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 18:48:19 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 18:48:19 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 18:48:19 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 18:48:19 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 18:48:19 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 18:48:19 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 18:48:19 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 18:48:19 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 18:48:19 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 18:48:19 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 18:48:19 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 18:48:19 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 18:48:19 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 18:48:19 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-18-48-19, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 18:48:50 INFO  LogListener:19 - loginIntoApplicationInvalidCase: Test started
+2024-04-15 18:48:53 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3385 ms
+2024-04-15 18:48:54 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 878 ms
+2024-04-15 18:48:56 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 299 ms
+2024-04-15 18:48:57 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1226 ms
+2024-04-15 18:48:58 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 701 ms
+2024-04-15 18:49:09 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 230 ms
+2024-04-15 18:49:11 INFO  LogListener:19 - By.xpath: //android.view.View[@content-desc="We didn't recognize this email or password."] >>>>>> Identified in 1837 ms
+2024-04-15 18:49:11 INFO  LogListener:19 - loginIntoApplicationInvalidCase : Test Passed
+2024-04-15 18:49:14 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 18:49:14 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-15 18:49:14 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-15 18:49:14 INFO  LogListener:19 - <androidApp>:<>
+2024-04-15 18:49:14 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-15 18:49:14 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-15 18:49:14 INFO  LogListener:19 - <iosApp>:<>
+2024-04-15 18:49:14 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-15 18:49:14 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-15 18:49:14 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-15 18:49:14 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-15 18:49:14 INFO  LogListener:19 - <build>:<1.0>
+2024-04-15 18:49:14 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-15 18:49:14 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-15 18:49:14 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-15 18:49:14 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-15 18:49:14 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-15-18-49-14, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-15 18:49:46 INFO  LogListener:19 - loginIntoApplicationValidCase: Test started
+2024-04-15 18:49:49 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3266 ms
+2024-04-15 18:49:50 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 853 ms
+2024-04-15 18:49:52 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 279 ms
+2024-04-15 18:49:53 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 242 ms
+2024-04-15 18:49:54 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 641 ms
+2024-04-15 18:50:05 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 225 ms
+2024-04-15 18:52:05 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-15 18:52:05 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 328 ms
+2024-04-15 18:52:06 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 181 ms
+2024-04-15 18:52:06 INFO  LogListener:19 - loginIntoApplicationValidCase : Test Passed
+2024-04-15 18:52:10 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-15 18:52:10 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-15 18:52:10 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-16 10:55:37 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-16 10:55:37 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-16 10:55:37 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 10:55:37 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 10:55:37 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 10:55:37 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 10:55:37 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 10:55:37 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 10:55:37 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 10:55:37 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 10:55:37 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 10:55:37 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 10:55:37 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 10:55:37 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 10:55:37 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 10:55:37 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 10:55:37 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 10:55:37 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-10-55-37, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 10:56:08 INFO  LogListener:19 - loginIntoApplicationInvalidCase: Test started
+2024-04-16 10:56:12 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3223 ms
+2024-04-16 10:56:13 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 901 ms
+2024-04-16 10:56:14 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1240 ms
+2024-04-16 10:56:15 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1276 ms
+2024-04-16 10:56:16 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 683 ms
+2024-04-16 10:56:29 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 292 ms
+2024-04-16 10:56:31 INFO  LogListener:19 - By.xpath: //android.view.View[@content-desc="We didn't recognize this email or password."] >>>>>> Identified in 2017 ms
+2024-04-16 10:56:31 INFO  LogListener:19 - loginIntoApplicationInvalidCase : Test Passed
+2024-04-16 10:56:36 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 10:56:36 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 10:56:37 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 10:56:37 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 10:56:37 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 10:56:37 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 10:56:37 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 10:56:37 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 10:56:37 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 10:56:37 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 10:56:37 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 10:56:37 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 10:56:37 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 10:56:37 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 10:56:37 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 10:56:37 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 10:56:37 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-10-56-37, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 10:57:40 INFO  LogListener:19 - loginIntoApplicationValidCase: Test started
+2024-04-16 10:57:45 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3899 ms
+2024-04-16 10:57:47 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1832 ms
+2024-04-16 10:57:49 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1728 ms
+2024-04-16 10:57:52 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 2218 ms
+2024-04-16 10:57:54 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1503 ms
+2024-04-16 10:58:11 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1529 ms
+2024-04-16 11:00:12 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-16 11:00:13 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 1567 ms
+2024-04-16 11:00:17 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 1998 ms
+2024-04-16 11:00:17 INFO  LogListener:19 - loginIntoApplicationValidCase : Test Passed
+2024-04-16 11:00:20 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 11:00:20 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-16 11:00:21 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-16 11:02:21 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-16 11:02:21 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-16 11:02:21 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 11:02:21 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 11:02:22 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 11:02:22 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 11:02:22 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 11:02:22 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 11:02:22 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 11:02:22 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 11:02:22 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 11:02:22 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 11:02:22 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 11:02:22 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 11:02:22 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 11:02:22 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 11:02:22 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 11:02:22 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-11-02-22, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 11:02:58 INFO  LogListener:19 - loginIntoApplicationInvalidCase: Test started
+2024-04-16 11:03:01 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3152 ms
+2024-04-16 11:03:02 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 917 ms
+2024-04-16 11:03:03 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 287 ms
+2024-04-16 11:03:05 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1222 ms
+2024-04-16 11:03:05 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 676 ms
+2024-04-16 11:03:17 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 249 ms
+2024-04-16 11:03:19 INFO  LogListener:19 - By.xpath: //android.view.View[@content-desc="We didn't recognize this email or password."] >>>>>> Identified in 1812 ms
+2024-04-16 11:03:19 ERROR LogListener:36 - loginIntoApplicationInvalidCase : Test Failed : expected [This is invalid entry] but found [We didn't recognize this email or password.]
+2024-04-16 11:03:21 ERROR LogListener:27 - Failure stackTrace message >>>>> expected [This is invalid entry] but found [We didn't recognize this email or password.]
+2024-04-16 11:03:23 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 11:03:23 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 11:03:23 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 11:03:23 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 11:03:23 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 11:03:23 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 11:03:23 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 11:03:23 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 11:03:23 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 11:03:23 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 11:03:23 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 11:03:23 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 11:03:23 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 11:03:23 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 11:03:23 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 11:03:23 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 11:03:23 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-11-03-23, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 11:04:04 INFO  LogListener:19 - loginIntoApplicationValidCase: Test started
+2024-04-16 11:04:08 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3797 ms
+2024-04-16 11:04:11 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1388 ms
+2024-04-16 11:04:13 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1666 ms
+2024-04-16 11:04:15 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1770 ms
+2024-04-16 11:04:18 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1729 ms
+2024-04-16 11:04:34 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1240 ms
+2024-04-16 11:06:35 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-16 11:06:36 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 1299 ms
+2024-04-16 11:06:38 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 1000 ms
+2024-04-16 11:06:38 INFO  LogListener:19 - loginIntoApplicationValidCase : Test Passed
+2024-04-16 11:06:42 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 11:06:42 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-16 11:06:42 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-16 11:13:27 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-16 11:13:27 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-16 11:13:27 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 11:13:27 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 11:13:27 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 11:13:27 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 11:13:27 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 11:13:27 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 11:13:27 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 11:13:27 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 11:13:27 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 11:13:27 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 11:13:27 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 11:13:27 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 11:13:27 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 11:13:27 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 11:13:27 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 11:13:27 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-11-13-27, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 11:13:59 INFO  LogListener:19 - loginIntoApplicationInvalidCase: Test started
+2024-04-16 11:14:02 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3186 ms
+2024-04-16 11:14:03 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 917 ms
+2024-04-16 11:14:04 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1151 ms
+2024-04-16 11:14:06 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1678 ms
+2024-04-16 11:14:07 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 715 ms
+2024-04-16 11:14:18 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 281 ms
+2024-04-16 11:14:20 INFO  LogListener:19 - By.xpath: //android.view.View[@content-desc="We didn't recognize this email or password."] >>>>>> Identified in 190 ms
+2024-04-16 11:14:20 INFO  LogListener:19 - loginIntoApplicationInvalidCase : Test Passed
+2024-04-16 11:14:23 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 11:14:23 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 11:14:23 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 11:14:23 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 11:14:23 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 11:14:23 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 11:14:23 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 11:14:23 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 11:14:23 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 11:14:23 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 11:14:23 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 11:14:23 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 11:14:23 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 11:14:23 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 11:14:23 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 11:14:23 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 11:14:23 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-11-14-23, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 11:14:56 INFO  LogListener:19 - loginIntoApplicationValidCase: Test started
+2024-04-16 11:15:00 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3720 ms
+2024-04-16 11:15:02 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 1432 ms
+2024-04-16 11:15:05 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1231 ms
+2024-04-16 11:15:07 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1825 ms
+2024-04-16 11:15:09 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 1360 ms
+2024-04-16 11:15:25 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 1239 ms
+2024-04-16 11:17:26 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-16 11:17:27 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 1241 ms
+2024-04-16 11:17:30 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 908 ms
+2024-04-16 11:17:30 INFO  LogListener:19 - loginIntoApplicationValidCase : Test Passed
+2024-04-16 11:17:34 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 11:17:34 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-16 11:17:34 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
+2024-04-16 15:57:52 INFO  LogListener:19 - ************************** Test Suite Started ************************************
+2024-04-16 15:57:52 INFO  LogListener:19 - ************************** Class <login> started ************************************
+2024-04-16 15:57:52 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 15:57:52 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 15:57:53 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 15:57:53 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 15:57:53 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 15:57:53 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 15:57:53 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 15:57:53 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 15:57:53 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 15:57:53 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 15:57:53 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 15:57:53 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 15:57:53 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 15:57:53 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 15:57:53 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 15:57:53 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-15-57-53, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 15:58:24 INFO  LogListener:19 - loginIntoApplicationInvalidCase: Test started
+2024-04-16 15:58:28 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3548 ms
+2024-04-16 15:58:29 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 869 ms
+2024-04-16 15:58:30 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 426 ms
+2024-04-16 15:58:32 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1286 ms
+2024-04-16 15:58:33 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 745 ms
+2024-04-16 15:58:45 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 320 ms
+2024-04-16 15:58:47 INFO  LogListener:19 - By.xpath: //android.view.View[@content-desc="We didn't recognize this email or password."] >>>>>> Identified in 1889 ms
+2024-04-16 15:58:47 INFO  LogListener:19 - loginIntoApplicationInvalidCase : Test Passed
+2024-04-16 15:58:51 INFO  LogListener:19 - ============================ Method <loginIntoApplicationInvalidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 15:58:51 INFO  LogListener:19 - [Android:Samsung Galaxy S22 Ultra:12.0]
+2024-04-16 15:58:51 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> started ==============================
+2024-04-16 15:58:51 INFO  LogListener:19 - <androidApp>:<>
+2024-04-16 15:58:51 INFO  LogListener:19 - <browserstackKey>:<t5KuKWzMqgRpyWCLhm87>
+2024-04-16 15:58:51 INFO  LogListener:19 - <timezone>:<New_York>
+2024-04-16 15:58:51 INFO  LogListener:19 - <iosApp>:<>
+2024-04-16 15:58:51 INFO  LogListener:19 - <executionPlatforms>:<Android:Samsung Galaxy S22 Ultra:12.0>
+2024-04-16 15:58:51 INFO  LogListener:19 - <BrowserStackiOSApp>:<>
+2024-04-16 15:58:51 INFO  LogListener:19 - <endpoint>:<https://anjanaprakash_hHWeNt:t5KuKWzMqgRpyWCLhm87@hub.browserstack.com/wd/hub>
+2024-04-16 15:58:51 INFO  LogListener:19 - <browserstackUser>:<anjanaprakash_hHWeNt>
+2024-04-16 15:58:51 INFO  LogListener:19 - <build>:<1.0>
+2024-04-16 15:58:51 INFO  LogListener:19 - <host>:<BrowserStack>
+2024-04-16 15:58:51 INFO  LogListener:19 - <browserStackAndroidApp>:<bs://546e0ef1089348a188ab63698ac35b6788944f0f>
+2024-04-16 15:58:51 INFO  LogListener:19 - <projectName>:<Regression execution>
+2024-04-16 15:58:51 INFO  LogListener:19 - <geolocation>:<US>
+2024-04-16 15:58:51 INFO  LogListener:19 - driver information >>>>>>Capabilities {app: bs://546e0ef1089348a188ab63..., browserstack.debug: true, bstack:options: {appiumVersion: 1.21.0}, build: 1.0, deviceName: Samsung Galaxy S22 Ultra, geoLocation: IN, gpsLocation: 11.09240,75.88557, name: 2024-04-16-15-58-51, platformName: ANDROID, platformVersion: 12.0, project: Regression execution}
+2024-04-16 15:59:17 INFO  LogListener:19 - loginIntoApplicationValidCase: Test started
+2024-04-16 15:59:20 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Get started"] >>>>>> Identified in 3285 ms
+2024-04-16 15:59:21 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Log in"] >>>>>> Identified in 864 ms
+2024-04-16 15:59:23 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1080 ms
+2024-04-16 15:59:24 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText >>>>>> Identified in 1212 ms
+2024-04-16 15:59:25 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[3] >>>>>> Identified in 668 ms
+2024-04-16 15:59:37 INFO  LogListener:19 - By.xpath: //android.widget.Button[@content-desc="Continue"] >>>>>> Identified in 227 ms
+2024-04-16 16:01:37 ERROR LogListener:27 - By.xpath: //android.view.View[@content-desc="Welcome to the team, Rayan!"] >>>>>> Exception in identify the elementclass java.util.LinkedHashMap cannot be cast to class org.openqa.selenium.WebElement (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-04-16 16:01:37 INFO  LogListener:19 - By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView >>>>>> Identified in 263 ms
+2024-04-16 16:01:38 INFO  LogListener:19 - By.xpath:  //android.widget.Switch[contains(@content-desc,"Rayan")] >>>>>> Identified in 390 ms
+2024-04-16 16:01:38 INFO  LogListener:19 - loginIntoApplicationValidCase : Test Passed
+2024-04-16 16:01:42 INFO  LogListener:19 - ============================ Method <loginIntoApplicationValidCase{Android:Samsung Galaxy S22 Ultra:12.0}> ended ==============================
+2024-04-16 16:01:42 INFO  LogListener:19 - ************************** Class <login> ended ************************************
+2024-04-16 16:01:42 INFO  LogListener:19 - ************************** Test Suite Finished ************************************
