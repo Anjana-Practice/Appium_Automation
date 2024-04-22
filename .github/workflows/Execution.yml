@@ -14,16 +14,7 @@ on:
         description: "Android:Samsung Galaxy S22 Ultra:12.0"
         required: true
         type: string
-      environment:
-        description: "Application environment"
-        required: true
-        default: "CodmagicDev"
-        type: choice
-        options:
-          - CodmagicDev
-          - CodmagicStage
-          - CodmagicProd
-
+      
 env:
   BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
   BROWSER_STACK_ACCESS_KEY: t5KuKWzMqgRpyWCLhm87
@@ -45,8 +36,8 @@ jobs:
           mvn -q test
         env:
           BROWSER_STACK_HUB_URL: "https://${{ env.BROWSER_STACK_USERNAME }}:${{ env.BROWSER_STACK_ACCESS_KEY }}@hub.browserstack.com/wd/hub"
-          DEVICE_DETAILS: ${{ inputs.device-details }}
-          APP_URL: ${{ inputs.app-url }}
+          DEVICE_DETAILS: "Android:Samsung Galaxy S22 Ultra:12.0"
+          APP_URL: "bs://aa5a4b95e024b4a7a60d7b0e6678a930c38cfa99"
 
       - name: Push test logs to artifacts
         uses: actions/upload-artifact@v3
