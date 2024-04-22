@@ -5,15 +5,6 @@ on:
     - cron: '0 16 * * *'  # Scheduled to run every day at 4:00 PM UTC (adjust as needed)
 
   workflow_dispatch:
-    inputs:
-      app-url:
-        description: "bs://aa5a4b95e024b4a7a60d7b0e6678a930c38cfa99"
-        required: true
-        type: string
-      device-details:
-        description: "Android:Samsung Galaxy S22 Ultra:12.0"
-        required: true
-        type: string
       
 env:
   BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
