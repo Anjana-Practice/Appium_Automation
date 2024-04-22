@@ -38,7 +38,7 @@ jobs:
         env:
           BROWSER_STACK_HUB_URL: "https://${{ env.BROWSER_STACK_USERNAME }}:${{ env.BROWSER_STACK_ACCESS_KEY }}@hub.browserstack.com/wd/hub"
           DEVICE_DETAILS: "Android:Samsung Galaxy S22 Ultra:12.0"
-          APP_URL: "bs://aa5a4b95e024b4a7a60d7b0e6678a930c38cfa99"
+          APP_URL: "bs://546e0ef1089348a188ab63698ac35b6788944f0f"
 
       - name: Push test logs to artifacts
         uses: actions/upload-artifact@v3
