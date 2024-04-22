@@ -4,17 +4,33 @@ on:
   schedule:
     - cron: '0 16 * * *'  # Scheduled to run every day at 4:00 PM UTC (adjust as needed)
 
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
     inputs:
-      trigger:
-        description: 'Trigger the workflow manually'
-        required: false
-        default: 'manual'
+      app-url:
+        description: "bs://aa5a4b95e024b4a7a60d7b0e6678a930c38cfa99"
+        required: true
+        type: string
+      device-details:
+        description: "Android:Samsung Galaxy S22 Ultra:12.0"
+        required: true
+        type: string
+      environment:
+        description: "Application environment"
+        required: true
+        default: "CodmagicDev"
+        type: choice
+        options:
+          - CodmagicDev
+          - CodmagicStage
+          - CodmagicProd
+
+env:
+  BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
+  BROWSER_STACK_ACCESS_KEY: t5KuKWzMqgRpyWCLhm87
 
 jobs:
-  build:
+  run-presto-tests:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -22,8 +38,24 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          java-version: '11'  # Specify the Java version you need
+          java-version: "11"
 
-      - name: Build and test with Maven
+      - name: Run the presto tests
         run: |
-          mvn clean test  # Adjust Maven commands based on your project setup
+          mvn -q test
+        env:
+          BROWSER_STACK_HUB_URL: "https://${{ env.BROWSER_STACK_USERNAME }}:${{ env.BROWSER_STACK_ACCESS_KEY }}@hub.browserstack.com/wd/hub"
+          DEVICE_DETAILS: ${{ inputs.device-details }}
+          APP_URL: ${{ inputs.app-url }}
+
+      - name: Push test logs to artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test Execution logs
+          path: logs/test-appium.log
+
+      - name: Push extent report html file to artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test Execution Result in HTML
+          path: ExtentReports/AutomationResult.html
