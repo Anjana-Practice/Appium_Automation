@@ -5,10 +5,19 @@ on:
     - cron: '0 16 * * *'  # Scheduled to run every day at 4:00 PM UTC (adjust as needed)
 
   workflow_dispatch:
-      
+   inputs:
+      devices:
+        description: "Select Device lists"
+        required: true
+        default: "Android:Samsung Galaxy S22 Ultra:12.0"
+        type: choice
+        options:
+          - "Android:Samsung Galaxy S22 Ultra:12.0"
+             
 env:
   BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
   BROWSER_STACK_ACCESS_KEY: t5KuKWzMqgRpyWCLhm87
+  SCHEDULE_DEVICES: Android:Samsung Galaxy S22 Ultra:12.0
 
 jobs:
   run-presto-tests:
