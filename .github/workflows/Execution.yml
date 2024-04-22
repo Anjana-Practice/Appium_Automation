@@ -1,0 +1,29 @@
+name: CI/CD with Appium
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # Scheduled to run every day at 4:00 PM UTC (adjust as needed)
+
+  workflow_dispatch:  # Manual trigger
+    inputs:
+      trigger:
+        description: 'Trigger the workflow manually'
+        required: false
+        default: 'manual'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'  # Specify the Java version you need
+
+      - name: Build and test with Maven
+        run: |
+          mvn clean test  # Adjust Maven commands based on your project setup
