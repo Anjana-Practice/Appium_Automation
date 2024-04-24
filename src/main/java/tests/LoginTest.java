@@ -21,7 +21,7 @@ public class LoginTest extends TestNGListener {
     AccountPage account;
     HomePage home;
     AccountSettingsPage settings;
-    @Test(dataProvider = "platforms", testName = "Login Functionality-Valid", description = "care crown login validation with valid credentials")
+    @Test(dataProvider = "platforms", testName = "Login Functionality-Valid", description = "care crown login validation with valid credentials.")
     public void loginIntoApplicationValidCase(String platform) throws InterruptedException {
         launchPage = PageFactory.getInstance(LaunchPage.class);
         login = PageFactory.getInstance(SignInPage.class);
