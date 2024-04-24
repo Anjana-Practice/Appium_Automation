@@ -41,6 +41,7 @@ public class DriverFactory {
             capabilities.setCapability("automationName", "XCUITest");
             capabilities.setCapability("app", testParameters.get("iosApp"));
         } else if (testParameters.get("host").equals("BrowserStack")) {
+            System.out.println("loop inside");
             if (System.getenv().containsKey("GITHUB_ACTIONS"))
                 testParameters = getDataFromEnv(testParameters);
             capabilities.setCapability("app", config.contains("Android") ? testParameters.get("browserStackAndroidApp")
