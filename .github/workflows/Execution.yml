@@ -1,8 +1,9 @@
 name: CI/CD with Appium
 
 on:
-  schedule:
-    - cron: '0 16 * * *'  # Scheduled to run every day at 4:00 PM UTC (adjust as needed)
+  push:
+    branches:
+      - main
 
   workflow_dispatch:
    inputs:
