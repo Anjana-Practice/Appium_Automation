@@ -33,7 +33,9 @@ public class TestNGListener {
 
     @BeforeTest
     protected void setup(ITestContext context) {
+        System.out.println("BeforeTest");
         Log.info("************************** Class <"+ context.getCurrentXmlTest().getName() +"> started ************************************");
+        System.out.println("BeforeTest_1");
     }
 
     @BeforeMethod
