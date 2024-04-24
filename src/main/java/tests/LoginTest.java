@@ -42,7 +42,7 @@ public class LoginTest extends TestNGListener {
             home.clickhamburgerIcon().NameInHamburger();
         }
     }
-    @Test(dataProvider = "platforms", testName = "Login Functionality-Invalid", description = "care crown login validation with invalid credentials")
+    @Test(dataProvider = "platforms", testName = "Login Functionality-Invalid", description = "care crown login validation with invalid credentials.")
     public void loginIntoApplicationInvalidCase(String platform) throws InterruptedException {
         launchPage = PageFactory.getInstance(LaunchPage.class);
         login = PageFactory.getInstance(SignInPage.class);
