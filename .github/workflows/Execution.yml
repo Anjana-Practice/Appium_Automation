@@ -39,7 +39,7 @@ jobs:
             cache: maven
       - name: Run the tests
         run: |
-          mvn -q test
+          mvn clean test -DsuiteXmlFile=${{ github.workspace }}/browserstack_reg.xml
         env:
           BROWSER_STACK_HUB_URL: "https://${{ env.BROWSER_STACK_USERNAME }}:${{ env.BROWSER_STACK_ACCESS_KEY }}@hub.browserstack.com/wd/hub"
           DEVICE_DETAILS: "Android:Samsung Galaxy S22 Ultra:12.0"
