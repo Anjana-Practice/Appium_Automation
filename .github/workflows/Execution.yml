@@ -2,20 +2,8 @@ name: CI/CD with Appium
 
 on:
   release:
-    types: [ created ]
-  workflow_dispatch:
-     inputs:
-      devices:
-        description: "Select Device lists"
-        required: true
-        default: "Android:Samsung Galaxy S22 Ultra:12.0"
-        type: choice
-        options:
-          - "Android:Samsung Galaxy S22 Ultra:12.0"
-      app-url:
-        description: "bs://546e0ef1089348a188ab63698ac35b6788944f0f"
-        required: true
-        type: string
+    types: [created]
+  workflow_dispatch: # Put here!!
              
 env:
   BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
