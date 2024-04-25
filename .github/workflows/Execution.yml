@@ -1,9 +1,6 @@
 name: CI/CD with Appium
 
 on:
-  push:
-    branches:
-      - main
 
   workflow_dispatch:
    inputs:
