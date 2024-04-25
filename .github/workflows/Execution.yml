@@ -1,9 +1,10 @@
 name: CI/CD with Appium
 
 on:
-
-  workflow_dispatch:
-   inputs:
+  release:
+    types: [ created ]
+    workflow_dispatch:
+     inputs:
       devices:
         description: "Select Device lists"
         required: true
