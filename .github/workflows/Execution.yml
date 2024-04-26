@@ -15,9 +15,11 @@ on:
         options:
           - "Android:Samsung Galaxy S22 Ultra:12.0"
       app-url:
-        description: "bs://546e0ef1089348a188ab63698ac35b6788944f0f"
+        description: "App Id"
         required: true
         type: string
+ schedule: 
+   - cron: "0 16 * * *"
              
 env:
   BROWSER_STACK_USERNAME: anjanaprakash_hHWeNt
